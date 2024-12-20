@@ -123,7 +123,7 @@ margin-right: 20px;
 font-size: 15px; /* Smaller font size for mobile */ 
 padding: 15px; max-width: 90%; 
 } 
-.imageandoldfashion, .imageandwhiskeysour .imageandblackandwhite { 
+.imageandoldfashion, .imageandwhiskeysour, .imageandblackandwhite { 
 flex-direction: column; /* Stack elements vertically on mobile */ 
 align-items: center; 
 } 
