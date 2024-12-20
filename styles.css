@@ -1,5 +1,9 @@
 h1{
+	font-family: "Papyrus";
 	text-align: center;
+}
+h2{
+	font-family: "Papyrus";
 }
 .image-container{
 	position: relative;
@@ -19,9 +23,10 @@ h1{
 	padding: 20px;
 	border-radius: 10px;
 	text-align: center;
-	font-size: 35px;
+	font-size: 50px;
 	max-height: 100%;
 	overflow-y: auto;
+	font-family: "Papyrus";
 }
 body{
 	background-color: black;
@@ -57,6 +62,19 @@ border-radius: 10px;
 .whiskeysourtext {	
 max-width: 500px; /* Optional: adjust as needed */ 
 }
+.imageandblackandwhite { 
+display: flex; 
+align-items: left; 
+justify-content: left; 
+} 
+.imageandblackandwhite img { 
+margin-right: 20px; /* Space between image and text */ 
+border-radius: 10px;
+} 
+.blackandwhitetext {	
+max-width: 500px; /* Optional: adjust as needed */ 
+border-radius: 10px;
+}
 hr{
 	color: white;
 }
@@ -70,7 +88,8 @@ hr{
 	text-decoration: none;
 	color: inherit;
 	padding: 5px 10px;
-	font-size: 20px;
+	font-size: 30px;
+	font-family: "Papyrus";
 }
 .recipes{
 	
@@ -89,6 +108,12 @@ hr{
 	justify-content: center;
 	align-items: center;
 }
+.whyyouhere{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Media Queries for Responsiveness */ 
 @media (max-width: 768px) 
 { body { 
 margin-left: 20px;
@@ -98,11 +123,11 @@ margin-right: 20px;
 font-size: 15px; /* Smaller font size for mobile */ 
 padding: 15px; max-width: 90%; 
 } 
-.imageandoldfashion, .imageandwhiskeysour { 
+.imageandoldfashion, .imageandwhiskeysour .imageandblackandwhite { 
 flex-direction: column; /* Stack elements vertically on mobile */ 
 align-items: center; 
 } 
-.imageandoldfashion img, .imageandwhiskeysour img { 
+.imageandoldfashion img, .imageandwhiskeysour img, .imageandblackandwhite img { 
 margin-right: 0; 
 margin-bottom: 10px; 
 } .menu a { 
