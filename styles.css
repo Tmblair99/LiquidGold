@@ -39,8 +39,8 @@ img{
 }
 .imageandoldfashion { 
 display: flex; 
-align-items: left; 
-justify-content: left; 
+align-items: center; 
+justify-content: center; 
 } 
 .imageandoldfashion img { 
 margin-right: 20px; /* Space between image and text */ 
@@ -52,8 +52,8 @@ border-radius: 10px;
 }
 .imageandwhiskeysour { 
 display: flex; 
-align-items: right; 
-justify-content: right; 
+align-items: center; 
+justify-content: center; 
 } 
 .imageandwhiskeysour img { 
 margin-right: 20px; /* Space between image and text */ 
@@ -64,8 +64,8 @@ max-width: 500px; /* Optional: adjust as needed */
 }
 .imageandblackandwhite { 
 display: flex; 
-align-items: left; 
-justify-content: left; 
+align-items: center; 
+justify-content: center; 
 } 
 .imageandblackandwhite img { 
 margin-right: 20px; /* Space between image and text */ 
@@ -123,7 +123,7 @@ margin-right: 20px;
 font-size: 15px; /* Smaller font size for mobile */ 
 padding: 15px; max-width: 90%; 
 } 
-.imageandoldfashion, .imageandwhiskeysour, .imageandblackandwhite { 
+.imageandoldfashion, .imageandwhiskeysour .imageandblackandwhite { 
 flex-direction: column; /* Stack elements vertically on mobile */ 
 align-items: center; 
 } 
