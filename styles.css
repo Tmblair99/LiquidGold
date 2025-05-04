@@ -75,6 +75,32 @@ border-radius: 10px;
 max-width: 500px; /* Optional: adjust as needed */ 
 border-radius: 10px;
 }
+.imageandbleedingfig { 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+} 
+.imageandbleedingfig img { 
+margin-right: 20px; /* Space between image and text */ 
+border-radius: 10px;
+} 
+.bleedingfigtext {	
+max-width: 500px; /* Optional: adjust as needed */ 
+border-radius: 10px;
+}
+.imageandkentuckypeach { 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+} 
+.imageandkentuckypeach img { 
+margin-right: 20px; /* Space between image and text */ 
+border-radius: 10px;
+} 
+.kentuckypeachtext {	
+max-width: 500px; /* Optional: adjust as needed */ 
+border-radius: 10px;
+}
 hr{
 	color: white;
 }
@@ -123,11 +149,11 @@ margin-right: 20px;
 font-size: 15px; /* Smaller font size for mobile */ 
 padding: 15px; max-width: 90%; 
 } 
-.imageandoldfashion, .imageandwhiskeysour, .imageandblackandwhite { 
+.imageandoldfashion, .imageandwhiskeysour, .imageandblackandwhite .imageandbleedingfig .imageandkentuckypeach { 
 flex-direction: column; /* Stack elements vertically on mobile */ 
 align-items: center; 
 } 
-.imageandoldfashion img, .imageandwhiskeysour img, .imageandblackandwhite img { 
+.imageandoldfashion img, .imageandwhiskeysour img, .imageandblackandwhite img .imageandbleedingfig img .imageandkentuckypeach img { 
 margin-right: 0; 
 margin-bottom: 10px; 
 } .menu a { 
