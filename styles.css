@@ -149,11 +149,11 @@ margin-right: 20px;
 font-size: 15px; /* Smaller font size for mobile */ 
 padding: 15px; max-width: 90%; 
 } 
-.imageandoldfashion, .imageandwhiskeysour, .imageandblackandwhite .imageandbleedingfig .imageandkentuckypeach { 
+.imageandoldfashion, .imageandwhiskeysour, .imageandblackandwhite, .imageandbleedingfig, .imageandkentuckypeach { 
 flex-direction: column; /* Stack elements vertically on mobile */ 
 align-items: center; 
 } 
-.imageandoldfashion img, .imageandwhiskeysour img, .imageandblackandwhite img .imageandbleedingfig img .imageandkentuckypeach img { 
+.imageandoldfashion img, .imageandwhiskeysour img, .imageandblackandwhite img, .imageandbleedingfig img, .imageandkentuckypeach img { 
 margin-right: 0; 
 margin-bottom: 10px; 
 } .menu a { 
